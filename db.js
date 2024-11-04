@@ -2,10 +2,10 @@ const { Pool } = require('pg');
 
 // Configure the PostgreSQL connection
 const pool = new Pool({
-  user: 'DB_USER',
+  user: 'postgres',
   host: 'localhost',
-  database: 'DB_NAME',
-  password: 'PASSWORD',
+  database: 'web_card_db',
+  password: 'Theo2905#',
   port: 5432, // Default PostgreSQL port
 });
 
